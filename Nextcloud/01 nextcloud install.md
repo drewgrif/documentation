@@ -84,3 +84,32 @@ Contents of nextcloud.conf file.
 
 </VirtualHost>
 ```
+
+```shell
+sudo a2ensite nextcloud.conf
+```
+
+As of Debian 12
+``` shell
+sudo micro /etc/php/8.2/apache2/php.ini
+```
+
+Adjust the following parameters:
+
+* memory_limit = 512M
+* upload_max_filesize = 16G
+* max_execution_time = 360
+* post_max_size = 16G
+* date.timezone = America/New_York
+* opcache.enable=1
+* opcache.interned_strings_buffer=32
+* opcache.max_accelerated_files=10000
+* opcache.memory_consumption=128
+* opcache.save_comments=1
+* opcache.revalidate_freq=1
+
+```shell
+sudo systemctl restart apache2
+```
+
+#### If using an external usb drive - see notes
