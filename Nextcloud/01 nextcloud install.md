@@ -9,7 +9,12 @@ sudo apt install -y exa micro neofetch zram-tools wget unzip curl
 ```shell
  sudo micro /etc/default/zramswap
  ```
- 
+ #### Get different .bashrc
+ ```shell
+ rm .bashrc
+ wget https://raw.githubusercontent.com/drewgrif/dotfiles/main/.bashrc
+ bash
+ ```
  
 #### Downloading Nextcloud
 
