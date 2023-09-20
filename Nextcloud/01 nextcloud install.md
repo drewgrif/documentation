@@ -117,4 +117,4 @@ Adjust the following parameters:
 sudo systemctl restart apache2
 ```
 
-## If using an external usb drive - see notes
+[[02 Using an external usb drive]]
