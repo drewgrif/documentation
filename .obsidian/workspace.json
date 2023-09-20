@@ -159,11 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4aa669cc6cedb06",
+  "active": "df0c4800d2a29df7",
   "lastOpenFiles": [
-    "_assets",
-    "_assets/2023-09-20-150845_1296x451_scrot.png",
-    "Nextcloud/01 nextcloud install.md",
-    "Nextcloud/03 Adding Network Share.md"
+    "assets/2023-09-20-150845_1296x451_scrot.png",
+    "Nextcloud/03 Adding Network Share.md",
+    "assets",
+    "Nextcloud/01 nextcloud install.md"
   ]
 }
