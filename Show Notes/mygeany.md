@@ -34,16 +34,21 @@ Install these plugins
 ![2024-06-13_15-28](https://github.com/drewgrif/documentation/assets/11249871/40e83a58-cda9-4dc8-ab42-3bb75029f44f)
 
 ### geany-plugin-git-changebar
+The git changebar plugin is perfect just the way it is.
+
 
 ### geany-plugin-markdown
 ![2024-06-13_15-33](https://github.com/drewgrif/documentation/assets/11249871/36780c0c-2602-49e1-bbbd-b02d3944775c)
 
 ### geany-plugin-spellcheck
+No need to change the spellcheck
 
 ### geany-plugin-treebrowser
 ![2024-06-13_15-32](https://github.com/drewgrif/documentation/assets/11249871/ba1a2273-bc9f-412c-bb49-f3d3b4692d13)
 
 ### geany-plugin-vimode
+I do not use vimode because I don't think it works well.  But you can use a keybind in Preferences=>Keybindings
+In fact, if you have a Plugin enabled (i.e. Tree-browser) you can set custom keybindings within the plugin.
 
 ### split-window
 
@@ -51,4 +56,4 @@ Install these plugins
 
 ## Conclusion
 
-By the end you should be able to log into vanilla qtile.
+Hope this helps.  I think Geany is phenomenal.
