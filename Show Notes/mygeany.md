@@ -10,7 +10,13 @@ Modified Geany Configuration
 - [Conclusion](#conclusion)
 
 ##  Initial Setup
-
+![2024-06-13_14-53](https://github.com/drewgrif/documentation/assets/11249871/31535693-c6b3-4f0b-9774-37980189e55d)
+![2024-06-13_14-51](https://github.com/drewgrif/documentation/assets/11249871/fd661c7d-3e63-4e42-941a-4e5f23d831eb)
+![2024-06-13_14-50](https://github.com/drewgrif/documentation/assets/11249871/8326cf6c-5ccb-4b11-b711-a183ac190b64)
+![2024-06-13_14-48](https://github.com/drewgrif/documentation/assets/11249871/fa04443b-966f-412d-bd93-f58f1522d5f1)
+![2024-06-13_14-46](https://github.com/drewgrif/documentation/assets/11249871/03c633a3-7e68-4454-b9aa-d7e69f1fb82f)
+![2024-06-13_14-44](https://github.com/drewgrif/documentation/assets/11249871/201415fe-d9ad-467d-bfc2-1a7211af3b8e)
+![2024-06-13_14-43](https://github.com/drewgrif/documentation/assets/11249871/d2e718bb-a9af-4264-a0b1-435fc4983b6d)
 
 
 ## Geany Plugins
