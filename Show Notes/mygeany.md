@@ -1,3 +1,5 @@
+
+
 Modified Geany Configuration
 ============================
 
@@ -29,14 +31,17 @@ Install these plugins
 7. [Split Window](#split-window) (installed by default)
 
 ### geany-plugin-addons
+![2024-06-13_15-28](https://github.com/drewgrif/documentation/assets/11249871/40e83a58-cda9-4dc8-ab42-3bb75029f44f)
 
 ### geany-plugin-git-changebar
 
 ### geany-plugin-markdown
+![2024-06-13_15-33](https://github.com/drewgrif/documentation/assets/11249871/36780c0c-2602-49e1-bbbd-b02d3944775c)
 
 ### geany-plugin-spellcheck
 
 ### geany-plugin-treebrowser
+![2024-06-13_15-32](https://github.com/drewgrif/documentation/assets/11249871/ba1a2273-bc9f-412c-bb49-f3d3b4692d13)
 
 ### geany-plugin-vimode
 
