@@ -5,7 +5,7 @@ Modified Geany Configuration
 
 - [Initial Setup](#initial-setup)
 - [Geany Plugins](#geany-plugins)
-- [Quick 5 minute vid](quick-5-minute-vid)
+- [Quick 5 minute vid](#quick-5-minute-vid)
 - [Conclusion](#conclusion)
 
 ## Initial Setup
@@ -53,7 +53,7 @@ In fact, if you have a Plugin enabled (i.e. Tree-browser) you can set custom key
 
 ### split-window
 
-## Quick 5 minutes vid
+## Quick 5 minute vid
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fK8KrDouaZ8/0.jpg)](https://www.youtube.com/watch?v=fK8KrDouaZ8)
 
 
