@@ -39,7 +39,7 @@ The git changebar plugin is perfect just the way it is.
 
 
 ### geany-plugin-markdown
-![2024-06-13_15-33](https://github.com/drewgrif/documentation/assets/11249871/36780c0c-2602-49e1-bbbd-b02d3944775c)
+![2024-06-13_18-26](https://github.com/drewgrif/documentation/assets/11249871/825c17aa-8c1f-4726-a23b-3fac19b5fede)
 
 ### geany-plugin-spellcheck
 No need to change the spellcheck
