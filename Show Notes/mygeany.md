@@ -3,8 +3,8 @@ Modified Geany Configuration
 
 ## Table of Contents
 
-- [Initial Setup](#Initial Setup)
-- [Geany Plugins](#Geany Plugins)
+- [Initial Setup](#setup)
+- [Geany Plugins](#plugins)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Conclusion](#conclusion)
