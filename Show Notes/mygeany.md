@@ -45,7 +45,8 @@ The git changebar plugin is perfect just the way it is.
 No need to change the spellcheck
 
 ### geany-plugin-treebrowser
-![2024-06-13_15-32](https://github.com/drewgrif/documentation/assets/11249871/ba1a2273-bc9f-412c-bb49-f3d3b4692d13)
+![2024-06-13_15-33](https://github.com/drewgrif/documentation/assets/11249871/f9dec4c5-a2c6-4a20-91d9-3a9cc886def6)
+
 
 ### geany-plugin-vimode
 I do not use vimode because I don't think it works well.  But you can use a keybind in Preferences=>Keybindings
