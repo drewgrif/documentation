@@ -50,9 +50,7 @@ No need to change the spellcheck
 
 ### geany-plugin-insertnum
 Added 06/16/2024
-
-
-
+![2024-06-16_10-27](https://github.com/drewgrif/documentation/assets/11249871/eb776994-f26e-474b-ad29-1537246000fc)
 
 ### geany-plugin-vimode
 I do not use vimode because I don't think it works well.  But you can use a keybind in Preferences=>Keybindings
