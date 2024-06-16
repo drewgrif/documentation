@@ -28,8 +28,9 @@ Install these plugins
 3. [geany-plugin-markdown](#geany-plugin-git-changebar)
 4. [geany-plugin-spellcheck](#geany-plugin-git-changebar)
 5. [geany-plugin-treebrowser](#geany-plugin-git-changebar)
-6. [geany-plugin-vimode](#geany-plugin-git-changebar) (availabe/optional) 
-7. [Split Window](#split-window) (installed by default)
+6. [geany-plugin-insertnum](#geany-plugin-insertnum)
+7. [geany-plugin-vimode](#geany-plugin-git-changebar) (availabe/optional) 
+8. [Split Window](#split-window) (installed by default)
 
 ### geany-plugin-addons
 ![2024-06-13_15-28](https://github.com/drewgrif/documentation/assets/11249871/40e83a58-cda9-4dc8-ab42-3bb75029f44f)
@@ -46,6 +47,11 @@ No need to change the spellcheck
 
 ### geany-plugin-treebrowser
 ![2024-06-13_15-33](https://github.com/drewgrif/documentation/assets/11249871/f9dec4c5-a2c6-4a20-91d9-3a9cc886def6)
+
+### geany-plugin-insertnum
+Added 06/16/2024
+
+
 
 
 ### geany-plugin-vimode
