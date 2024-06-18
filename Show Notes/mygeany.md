@@ -61,7 +61,7 @@ In fact, if you have a Plugin enabled (i.e. Tree-browser) you can set custom key
 ### split-window
 
 ## Geany Part 2 video
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ZZGKICzIuzQ/0.jpg)](https://youtu.be/ZZGKICzIuzQ)
+[![Associated video with this document](https://img.youtube.com/vi/ZZGKICzIuzQ/0.jpg)](https://www.youtube.com/watch?v=ZZGKICzIuzQ "Geany Part 2")
 
 
 ## Conclusion
