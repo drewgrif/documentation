@@ -74,7 +74,8 @@ Added 07/04/2024 - not sure about this but giving it a go for a week or two.
 
  This is a simple plugin that highlights all words that match current word under cursor (see screenshot).
  
- 
+ ![2024-07-04_18-32](https://github.com/drewgrif/documentation/assets/11249871/d7b8b813-5cab-4bcf-b5b6-09c6606c1c05)
+
 
 
 ### geany-plugin-vimode
