@@ -29,6 +29,8 @@ Install these plugins
 4. [geany-plugin-spellcheck](#geany-plugin-git-changebar)
 5. [geany-plugin-treebrowser](#geany-plugin-git-changebar)
 6. [geany-plugin-insertnum](#geany-plugin-insertnum)
+7. [geany-plugin-lineoperations](#geany-plugin-lineoperations)
+8. [geany-plugin-automark](#geany-plugin-automark)
 7. [geany-plugin-vimode](#geany-plugin-git-changebar) (availabe/optional) 
 8. [Split Window](#split-window) (installed by default)
 
@@ -52,6 +54,27 @@ No need to change the spellcheck
 Added 06/16/2024
 
 ![2024-06-16_10-27](https://github.com/drewgrif/documentation/assets/11249871/eb776994-f26e-474b-ad29-1537246000fc)
+
+### geany-plugin-lineoperations
+Added 07/04/2024
+
+* Remove Duplicate Lines, sorted
+* Remove Duplicate Lines, ordered
+* Remove Unique Lines
+* Keep Unique Lines
+* Remove Empty Lines
+* Remove Whitespace Lines
+* Remove Every Nth Line
+* Sort Lines Ascending
+* Sort Lines Descending
+
+
+### geany-plugin-automark
+Added 07/04/2024 - not sure about this but giving it a go for a week or two.
+
+ This is a simple plugin that highlights all words that match current word under cursor (see screenshot).
+ 
+ 
 
 
 ### geany-plugin-vimode
