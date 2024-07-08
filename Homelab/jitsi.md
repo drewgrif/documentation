@@ -55,7 +55,7 @@ If not enable, enable it.
 Add Prosody
 ```
 sudo curl -sL https://prosody.im/files/prosody-debian-packages.key -o /etc/apt/keyrings/prosody-debian-packages.key
-echo "deb [signed-by=/etc/apt/keyrings/prosody-debian-packages.key] http://packages.prosody.im/debian $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/prosody-debian-packages.list
+echo "deb [signed-by=/etc/apt/keyrings/prosody-debian-packages.key] http://packages.prosody.im/debian jammy main" | sudo tee /etc/apt/sources.list.d/prosody-debian-packages.list
 sudo apt install lua5.2
 ```
 
