@@ -18,7 +18,7 @@ sudo apt-add-repository universe (likely already installed)
 ```
 
 ```
-sudo hostnamectl set-hostname jitsi.sample.com
+sudo hostnamectl set-hostname jitsi.[DOMAIN_NAME]
 ```
 
 ```
@@ -28,7 +28,7 @@ sudo nano /etc/hosts
 After making sure linode is using a static ip address, add the static ip into the /etc/hosts file
 
 127.0.0.1
-x.x.x.x jitsi.sample.com
+x.x.x.x jitsi.[DOMAIN_NAME]
 
 
 ## Configure Firewall
@@ -78,12 +78,12 @@ Use Let's Encrypt for SSL
 ## Securing Room Creation
 Prosody configuration
 
-If you have installed Jitsi Meet from the Debian package, these changes should be made in /etc/prosody/conf.avail/[your-hostname].cfg.lua
+If you have installed Jitsi Meet from the Debian package, these changes should be made in /etc/prosody/conf.avail/[jitsi.[DOMAIN_NAME]].cfg.lua
 Enable authentication
 
 Inside the VirtualHost "[your-hostname]" block, replace anonymous authentication with hashed password authentication:
 ```
-VirtualHost "jitsi-meet.example.com"
+VirtualHost "jitsi.[DOMAIN_NAME]"
     authentication = "internal_hashed"
 ```
 Replace jitsi-meet.example.com with your hostname.
@@ -91,7 +91,7 @@ Replace jitsi-meet.example.com with your hostname.
 Also, add to the botttom of this file
 
 ```
-VirtualHost "guest.jitsi.your_domain"
+VirtualHost "guest.jitsi.[DOMAIN_NAME]"
     authentication = "anonymous"
     c2s_require_encryption = false
     modules_enabled = {
@@ -104,18 +104,39 @@ VirtualHost "guest.jitsi.your_domain"
     }
 ```
 
-Next, open another configuration file at /etc/jitsi/meet/jitsi.your_domain-config.js with a text editor:
+Next, open another configuration file at /etc/jitsi/meet/jitsi.[DOMAIN_NAME]-config.js with a text editor:
 ```
-    sudo nano /etc/jitsi/meet/jitsi.your_domain-config.js
+    sudo nano /etc/jitsi/meet/jitsi.[DOMAIN_NAME]-config.js
 ```
 Use the search tool CTRL+W again to search for anonymousdomain:, which will take you to the following line:
-/etc/jitsi/meet/your_domain-config.js
+/etc/jitsi/meet/[DOMAIN_NAME]-config.js
 ```
-        // anonymousdomain: 'guest.example.com',
+        // anonymousdomain: 'guest.[DOMAIN_NAME]',
 ```
 Edit this line to look like the following by removing the double slashes // at the start of the line:
-/etc/jitsi/meet/your_domain-config.js
+/etc/jitsi/meet/[DOMAIN_NAME]-config.js
 ```
-        anonymousdomain: 'guest.jitsi.your_domain',
+        anonymousdomain: 'guest.jitsi.[DOMAIN_NAME]',
 ```
-You will use the guest.jitsi.your_domain hostname that you used previously. This configuration tells Jitsi Meet what internal hostname to use for the un-authenticated guests. Save and close the file.
+You will use the guest.jitsi.[DOMAIN_NAME] hostname that you used previously. This configuration tells Jitsi Meet what internal hostname to use for the un-authenticated guests. Save and close the file.
+
+```
+sudo nano /etc/jitsi/jicofo/sip-communicator.properties
+```
+
+Change to:
+```
+org.jitsi.jicofo.auth.URL=XMPP:jitsi.[DOMAIN_NAME]
+```
+
+## Register names
+```
+sudo prosodyctl register user jitsi.[DOMAIN_NAME] password
+```
+** use unregister command if removing user **
+
+## Restart services
+
+```
+sudo systemctl restart prosody.service jicofo.service jitsi-videobridge2.service
+```
