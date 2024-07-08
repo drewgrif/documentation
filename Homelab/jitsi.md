@@ -13,10 +13,13 @@ sudo apt install apt-transport-https
 
 
 Make sure:
-
+```
 sudo apt-add-repository universe (likely already installed)
+```
 
+```
 sudo hostnamectl set-hostname jitsi.sample.com
+```
 
 ```
 sudo nano /etc/hosts
