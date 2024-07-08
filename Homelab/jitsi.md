@@ -28,6 +28,7 @@ sudo nano /etc/hosts
 After making sure linode is using a static ip address, add the static ip into the /etc/hosts file
 
 127.0.0.1
+
 x.x.x.x jitsi.[DOMAIN_NAME]
 
 
