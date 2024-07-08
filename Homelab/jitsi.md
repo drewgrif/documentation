@@ -72,8 +72,8 @@ sudo apt update
 sudo apt install jitsi-meet
 ```
 
-### Use CORRECT Hostname
-### Use Let's Encrypt for SSL
+* **Use CORRECT Hostname**
+* **Use Let's Encrypt for SSL**
 
 ## Securing Room Creation
 Prosody configuration
