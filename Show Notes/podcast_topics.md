@@ -1,6 +1,6 @@
 # Topics for podcast
 
-*this is brainstorming and couple be similar*
+*this is brainstorming and some similarities might occur*
 
 * I can't live without ... 
 * My top 3 or 5 favorite tools of all time
