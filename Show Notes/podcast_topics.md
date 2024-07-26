@@ -12,3 +12,4 @@
 * Linux Hacks - Little Tricks that Make a Big Difference
 * Underrated Tools - Hidden Gems in the Linux World
 * Unpopular Opinions
+* Two truths and a lie 
