@@ -140,3 +140,4 @@ sudo prosodyctl register user jitsi.[DOMAIN_NAME] password
 ```
 sudo systemctl restart prosody.service jicofo.service jitsi-videobridge2.service
 ```
+If you are using linode, make sure you alter the RDNS to be jitsi.[DOMAIN_NAME] 
