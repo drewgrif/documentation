@@ -13,6 +13,8 @@ The name **ZaneyOS** started as an inside joke among friends. The goal is for us
 
 > **Note:** **ZaneyOS is NOT a standalone distro.** There are **no plans** to provide an installation ISO.
 
+---
+
 ## **System Configuration**  
 
 ### **How Do I Change the Timezone?**  
